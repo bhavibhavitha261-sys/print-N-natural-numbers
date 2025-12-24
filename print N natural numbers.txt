@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int n = 1, limit;
+
+    printf("Enter value of N: ");
+    scanf("%d", &limit);
+
+    while (n <= limit) {
+        printf("%d ", n);
+        n++;
+    }
+
+    return 0;
+}
